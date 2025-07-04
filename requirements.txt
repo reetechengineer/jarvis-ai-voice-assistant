@@ -1,0 +1,51 @@
+# Core Dependencies
+SpeechRecognition==3.10.0
+pyttsx3==2.90
+pyaudio==0.2.11
+
+# Web and API requests
+requests==2.31.0
+urllib3==1.26.18
+
+# Wikipedia and information
+wikipedia==1.4.0
+
+# Jokes and entertainment
+pyjokes==0.6.0
+
+# Math and calculations
+wolframalpha==5.0.0
+
+# Email functionality
+secure-smtplib==0.1.1
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Audio processing (alternative to pyaudio)
+# Uncomment if pyaudio installation fails
+# sounddevice==0.4.6
+# wave==0.0.2
+
+# Optional: Enhanced features
+# openai==1.3.5  # For ChatGPT integration
+# gtts==2.4.0    # Google Text-to-Speech (alternative TTS)
+# pygame==2.5.2  # For audio playback
+
+# Development and testing
+pytest==7.4.3
+black==23.9.1
+flake8==6.1.0
+
+# System dependencies (Linux/Ubuntu)
+# sudo apt-get install portaudio19-dev python3-pyaudio
+# sudo apt-get install espeak espeak-data libespeak1 libespeak-dev
+# sudo apt-get install festival festvox-kallpc16k
+
+# macOS dependencies
+# brew install portaudio
+# brew install espeak
+
+# Windows dependencies
+# Windows users may need to install Microsoft Visual C++ Build Tools
+# or download pre-compiled wheels for pyaudio
